@@ -2,49 +2,76 @@
 <html lang="en">
 
     <head>
-        <meta charset="utf-8">
+        <title>Mizan Recipes - Italian Chicken</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Crockpot Italian Chicken</title>
         <link rel="stylesheet" href="../style.css">
     </head>
 
     <body>
-        <div id="page">
-            <header>
-                <h1 id="title">Mizan Recipes</h1>
-                <p id="subtitle">Delicious and nutritious</p>
-                <nav>
-                    <a href="../index.html">Homepage</a></li>
-                    <a href="../recipes/lasagna.html">Lasagna</a></li>
-                    <a href="../recipes/crockpot-italian-chiken.html">Crokpot Italian Chicken</a>
-                    <a class="active" href="../recipes/smash-burger-taco.html">Smash Burger taco</a>
-                </nav>
-            </header>
-            <main>
-                <h1>Crockpot Italian Chicken</h1>
-                <img src="../images/crockpot-italian-chicken.jpg">
+        <!-- Header -->
+        <header>
+            <nav class="bar padding top">
+                <a class="active bar-item button" href="../index.html">Homepage</a>
+                <div class="links">
+                    <a class="bar-item button" href="../recipes/lasagna.html">Lasagna</a>
+                    <a class="active bar-item button" href="../recipes/crockpot-italian-chiken.html">Italian
+                        Chicken</a>
+                    <a class="bar-item button" href="../recipes/smash-burger-taco.html">Smash Burger taco</a>
+                </div>
+            </nav>
+            <div class="content" style="max-width:1600px;min-width:500px">
+                <img src="../images/header-bg.jpg" width="1600" alt="restaurant table view">
+            </div>
+        </header>
 
-                <p>You only need 3 ingredients for this crockpot Italian chicken with Italian dressing and Parmesan cheese.
-                    Nothing could be easier than this for a weekday meal that's ready when you get home.</p>
+        <!-- Main content -->
+        <main class="content" style="max-width: 1100px;">
 
-                <h3>Ingredients</h3>
-                <ul>
-                    <li>1 (16 ounce) bottle Italian dressing (such as Olive Garden℠ Signature Italian Dressing)</li>
-                    <li>1/4 cup grated Parmesan cheese</li>
-                    <li>4 boneless skinless chicken breasts</li>
-                </ul>
-                <h3>Step-by-step</h3>
+            <!-- About -->
+            <div class="container padding-64">
+                <div class="col padding-large">
+                    <img src="../images/crockpot-italian-chicken.jpg" class="round opacity" width="100%"
+                        alt="Italian chicken served">
+                </div>
+
+                <div class="col padding-large">
+                    <h1>Italian Chicken</h1>
+                    <p>You only need 3 ingredients for this crockpot Italian chicken with Italian dressing and Parmesan
+                        cheese.
+                        Nothing could be easier than this for a weekday meal that's ready when you get home.</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Ingredients -->
+            <div class="container padding-64">
+                <div class="padding-large">
+                    <h1>Ingredients</h3>
+                        <h4>1 (16 ounce) bottle Italian dressing (such as Olive Garden℠ Signature Italian Dressing)<h4>
+                        <h4>1/4 cup grated Parmesan cheese</h4>
+                        <h4>4 boneless skinless chicken breasts</h4>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- How-to -->
+            <div class="container padding-64">
+                <h1>Step-by-step</h1>
                 <ol>
                     <li>Stir Italian dressing and Parmesan cheese together in a bowl.</li>
-                    <li>Place chicken in a slow cooker, and pour dressing mixture over chicken. Cover and cook on Low until
+                    <li>Place chicken in a slow cooker, and pour dressing mixture over chicken. Cover and cook on Low
+                        until
                         chicken is tender, no longer pink in the center, and the juices run clear, about 8 hours.</li>
                 </ol>
-                <button><a href="../index.html">Homepage</a></button>
-            </main>
-            <footer>
-
-            </footer>
-        </div>
+            </div>
+        </main>
+        <footer class="center padding-32">
+            <a class="button" href="../index.html">Homepage</a>
+            <p>Made by Mizanti with The Odin Project and W3Schools.</p>
+        </footer>
     </body>
 
 </html>

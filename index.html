@@ -2,32 +2,39 @@
 <html lang="en">
 
     <head>
-        <meta charset="utf-8">
+        <title>Mizan Recipes</title>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mizan Recipes</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div id="page">
-            <header>
-                <h1 id="title">Mizan Recipes</h1>
-                <p id="subtitle">Delicious and nutritious</p>
-                <nav>
-                    <a href=".">Homepage</a>
-                    <a href="recipes/lasagna.html">Lasagna</a>
-                    <a href="recipes/crockpot-italian-chiken.html">Crokpot Italian Chicken</a>
-                    <a href="recipes/smash-burger-taco.html">Smash Burger taco</a>
-                </nav>
-            </header>
-            <main>
+        <!-- Header -->
+        <header>
+            <nav class="bar padding top">
+                <a class="active bar-item button" href=".">Mizan Recipes</a>
+                <div class="links">
+                    <a class="bar-item button" href="recipes/lasagna.html">Lasagna</a>
+                    <a class="bar-item button" href="recipes/crockpot-italian-chiken.html">Crokpot Italian Chicken</a>
+                    <a class="bar-item button" href="recipes/smash-burger-taco.html">Smash Burger taco</a>
+                </div>
+            </nav>
+            <div class="content" style="max-width:1600px;min-width:500px">
+                <img src="images/header-bg.jpg" width="1600" alt="restaurant table view">
+            </div>
+        </header>
 
-            </main>
-            <footer>
+        <!-- Main content -->
+        <main class="content" style="max-width: 1100px;">
 
-            </footer>
-        </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="center padding-32">
+            <a class="button" href="index.html">Homepage</a>
+            <p>Made by Mizanti with The Odin Project and W3Schools.</p>
+        </footer>
     </body>
 
 </html>

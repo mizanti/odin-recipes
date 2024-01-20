@@ -2,48 +2,69 @@
 <html lang="en">
 
     <head>
-        <meta charset="utf-8">
+        <title>Mizan Recipes -Burger Taco</title>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Shash Burger Taco</title>
         <link rel="stylesheet" href="../style.css">
     </head>
 
     <body>
-        <div id="page">
-            <header>
-                <h1 id="title">Mizan Recipes</h1>
-                <p id="subtitle">Delicious and nutritious</p>
-                <nav>
-                    <a href="../index.html">Homepage</a></li>
-                    <a href="../recipes/lasagna.html">Lasagna</a></li>
-                    <a href="../recipes/crockpot-italian-chiken.html">Crokpot Italian Chicken</a>
-                    <a class="active" href="../recipes/smash-burger-taco.html">Smash Burger taco</a>
-                </nav>
-            </header>
-            <main>
-                <h1>Shash Burger Taco</h1>
-                <img src="../images/smash-burguer-taco.jpg">
-                <p>If you're a smash burger fan, try serving them as a taco with cheese and all the fixings for a
-                    different take!</p>
+        <!-- Header -->
+        <header>
+            <nav class="bar padding top">
+                <a class="active bar-item button" href="../index.html">Mizan Recipes</a>
+                <div class="links">
+                    <a class="bar-item button" href="../recipes/lasagna.html">Lasagna</a>
+                    <a class="bar-item button" href="../recipes/crockpot-italian-chiken.html">Italian Chicken</a>
+                    <a class="bar-item button active" href="../recipes/smash-burger-taco.html">Burger Taco</a>
+                </div>
+            </nav>
+            <div class="content" style="max-width:1600px;min-width:500px">
+                <img src="../images/header-bg.jpg" width="1600" alt="restaurant table view">
+            </div>
+        </header>
 
-                <h3>Ingredients</h3>
-                <ul>
-                    <li>1/4 cup mayonnaise</li>
-                    <li>1 tablespoon ketchup</li>
-                    <li>1 teaspoon mustard</li>
-                    <li>1 tablespoon relish</li>
-                    <li>1/2 teaspoon hot sauce</li>
-                    <li>1 lb ground round</li>
-                    <li>1 teaspoon Kosher salt</li>
-                    <li>1/2 teaspoon freshly ground black pepper</li>
-                    <li>4 (6-inch) flour tortillas</li>
-                    <li>2 slices American cheese, cut in half lengthwise</li>
-                    <li>1 cup shredded iceberg lettuce</li>
-                    <li>1/4 cup diced onion</li>
-                </ul>
+        <!-- Header -->
+        <main class="content" style="max-width: 1100px;">
+            <!-- About -->
+            <div class="container padding-64">
+                <div class="col padding-large">
+                    <img src="../images/smash-burguer-taco.jpg" class="round opacity" width="100%" alt="Lasagna served">
+                </div>
 
-                <h3>Step-by-step</h3>
+                <div class="col padding-large">
+                    <h1>Burger Taco</h1>
+                    <p>If you're a smash burger fan, try serving them as a taco with cheese and all the fixings for a different take!</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Ingredients -->
+            <div class="container padding-64">
+                <div class="padding-large">
+                    <h1>Ingredients</h1>
+                    <h4>1/4 cup mayonnaise</h4>
+                    <h4>1 tablespoon ketchup</h4>
+                    <h4>1 teaspoon mustard</h4>
+                    <h4>1 tablespoon relish</h4>
+                    <h4>1/2 teaspoon hot sauce</h4>
+                    <h4>1 lb ground round</h4>
+                    <h4>1 teaspoon Kosher salt</h4>
+                    <h4>1/2 teaspoon freshly ground black pepper</h4>
+                    <h4>4 (6-inch) flour tortillas</h4>
+                    <h4>2 slices American cheese, cut in half lengthwise</h4>
+                    <h4>1 cup shredded iceberg lettuce</h4>
+                    <h4>1/4 cup diced onion</h4>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- How-to -->
+            <div class="container padding-64">
+                <h1>Step-by-step</h1>
                 <ol>
                     <li>Combine mayo, ketchup, mustard, relish, and hot sauce in a small bowl; set sauce aside.</li>
                     <li>Heat a griddle over medium-high heat.</li>
@@ -55,12 +76,14 @@
                         onions. Drizzle with sauce, remove from the griddle and fold in half like a taco. Serve
                         immediately.</li>
                 </ol>
-                <button><a href="../index.html">Homepage</a></button>
-            </main>
-            <footer>
-
-            </footer>
-        </div>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="center padding-32">
+            <a class="button" href="../index.html">Homepage</a>
+            <p>Made by Mizanti with The Odin Project and W3Schools.</p>
+        </footer>
     </body>
 
 </html>
